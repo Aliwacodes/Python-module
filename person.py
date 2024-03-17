@@ -7,8 +7,5 @@ class Person:
   def introduce(self):
     print(f"Hello! My name is {self.name}. I am {self.age} years old and identify as {self.gender}.")
 
-# instance of the Person class
 person1 = Person("Alice", 30, "Female")
-
-# Call the introduce method to display person1's information
 person1.introduce()
